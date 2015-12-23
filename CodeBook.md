@@ -93,69 +93,71 @@ Number  | Name in dataset | Description
 20      | tBodyAccJerkMag.mean.. | Mean of the magnitude of the Jerk signal on body acceleration mean (normalized)
 21      | tBodyGyroMag.mean.. | Mean of the magnitude of the time signal of the angular velocity mean (normalized)
 22      | tBodyGyroJerkMag.mean.. | Mean of the magnitude of the Jerk signal of the angular velocity mean (normalized)
-23      | fBodyAcc.mean...X | Mean of the frequency domain signal on body acceleration mean on the X axis (normalized)
-24      | fBodyAcc.mean...Y | Mean of the frequency domain signal on body acceleration mean on the Y axis (normalized)
-25      | fBodyAcc.mean...Z | Mean of the frequency domain signal on body acceleration mean on the Z axis (normalized)
-26      | fBodyAcc.meanFreq...X | Mean of the weighted mean frequency domain signal on body acceleration mean on the X axis (normalized)
-27      | fBodyAcc.meanFreq...Y | Mean of the weighted mean frequency domain signal on body acceleration mean on the Y axis (normalized)
-28      | fBodyAcc.meanFreq...Z | Mean of the weighted mean frequency domain signal on body acceleration mean on the Z axis (normalized)
-29      | fBodyAccJerk.mean...X | Mean of the
-30      | fBodyAccJerk.mean...Y | Mean of the
-31      | fBodyAccJerk.mean...Z | Mean of the
-32      | fBodyAccJerk.meanFreq...X | Mean of the
-33      | fBodyAccJerk.meanFreq...Y | Mean of the
-34      | fBodyAccJerk.meanFreq...Z | Mean of the
-35      | fBodyGyro.mean...X | Mean of the
-36      | fBodyGyro.mean...Y | Mean of the
-37      | fBodyGyro.mean...Z | Mean of the
-38      | fBodyGyro.meanFreq...X | Mean of the
-39      | fBodyGyro.meanFreq...Y | Mean of the
-40      | fBodyGyro.meanFreq...Z | Mean of the
-41      | fBodyAccMag.mean.. | Mean of the
-42      | fBodyAccMag.meanFreq.. | Mean of the
-43      | fBodyBodyAccJerkMag.mean.. | Mean of the
-44      | fBodyBodyAccJerkMag.meanFreq.. | Mean of the
-45      | fBodyBodyGyroMag.mean.. | Mean of the
-46      | fBodyBodyGyroMag.meanFreq.. | Mean of the
-47      | fBodyBodyGyroJerkMag.mean.. | Mean of the
-48      | fBodyBodyGyroJerkMag.meanFreq.. | Mean of the
-49      | angle.tBodyAccMean.gravity. | Mean of the
-50      | angle.tBodyAccJerkMean..gravityMean. | Mean of the
-51      | angle.tBodyGyroMean.gravityMean. | Mean of the
-52      | angle.tBodyGyroJerkMean.gravityMean. | Mean of the
-53      | angle.X.gravityMean. | Mean of the
-54      | angle.Y.gravityMean. | Mean of the
-55      | angle.Z.gravityMean. | Mean of the
-56      | tBodyAcc.std...X | Mean of the
-57      | tBodyAcc.std...Y | Mean of the
-58      | tBodyAcc.std...Z | Mean of the
-59      | tGravityAcc.std...X | Mean of the
-60      | tGravityAcc.std...Y | Mean of the
-61      | tGravityAcc.std...Z | Mean of the
-62      | tBodyAccJerk.std...X | Mean of the
-63      | tBodyAccJerk.std...Y | Mean of the
-64      | tBodyAccJerk.std...Z | Mean of the
-65      | tBodyGyro.std...X | Mean of the
-66      | tBodyGyro.std...Y | Mean of the
-67      | tBodyGyro.std...Z | Mean of the
-68      | tBodyGyroJerk.std...X | Mean of the
-69      | tBodyGyroJerk.std...Y | Mean of the
-70      | tBodyGyroJerk.std...Z | Mean of the
-71      | tBodyAccMag.std.. | Mean of the
-72      | tGravityAccMag.std.. | Mean of the
-73      | tBodyAccJerkMag.std.. | Mean of the
-74      | tBodyGyroMag.std.. | Mean of the
-75      | tBodyGyroJerkMag.std.. | Mean of the
-76      | fBodyAcc.std...X | Mean of the
-77      | fBodyAcc.std...Y | Mean of the
-78      | fBodyAcc.std...Z | Mean of the
-79      | fBodyAccJerk.std...X | Mean of the
-80      | fBodyAccJerk.std...Y | Mean of the
-81      | fBodyAccJerk.std...Z | Mean of the
-82      | fBodyGyro.std...X | Mean of the
-83      | fBodyGyro.std...Y | Mean of the
-84      | fBodyGyro.std...Z | Mean of the
-85      | fBodyAccMag.std.. | Mean of the
-86      | fBodyBodyAccJerkMag.std.. | Mean of the
-87      | fBodyBodyGyroMag.std.. | Mean of the
-88      | fBodyBodyGyroJerkMag.std.. | Mean of the
+23      | fBodyAcc.mean...X | Mean of the frequency domain signal (FFT) on body acceleration mean on the X axis (normalized)
+24      | fBodyAcc.mean...Y | Mean of the frequency domain signal (FFT) on body acceleration mean on the Y axis (normalized)
+25      | fBodyAcc.mean...Z | Mean of the frequency domain signal (FFT) on body acceleration mean on the Z axis (normalized)
+26      | fBodyAcc.meanFreq...X | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the X axis (normalized)
+27      | fBodyAcc.meanFreq...Y | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the Y axis (normalized)
+28      | fBodyAcc.meanFreq...Z | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the Z axis (normalized)
+29      | fBodyAccJerk.mean...X | Mean of the Jerk frequency domain signal (FFT) on body acceleration mean on the X axis (normalized)
+30      | fBodyAccJerk.mean...Y | Mean of the frequency domain signal (FFT) on body acceleration mean on the Y axis (normalized)
+31      | fBodyAccJerk.mean...Z | Mean of the frequency domain signal (FFT) on body acceleration mean on the Z axis (normalized)
+32      | fBodyAccJerk.meanFreq...X | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the X axis (normalized)
+33      | fBodyAccJerk.meanFreq...Y | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the Y axis (normalized)
+34      | fBodyAccJerk.meanFreq...Z | Mean of the weighted mean frequency domain signal (FFT) on body acceleration mean on the Z axis (normalized)
+35      | fBodyGyro.mean...X | Mean of the frequency domain signal (FFT) on angular velocity mean on the X axis (normalized)
+36      | fBodyGyro.mean...Y | Mean of the frequency domain signal (FFT) on angular velocity mean on the Y axis (normalized)
+37      | fBodyGyro.mean...Z | Mean of the frequency domain signal (FFT) on angular velocity mean on the Z axis (normalized)
+38      | fBodyGyro.meanFreq...X | Mean of the weighted mean frequency domain signal (FFT) on angular velocity mean on the X axis (normalized)
+39      | fBodyGyro.meanFreq...Y | Mean of the weighted mean frequency domain signal (FFT) on angular velocity mean on the Y axis (normalized)
+40      | fBodyGyro.meanFreq...Z | Mean of the weighted mean frequency domain signal (FFT) on angular velocity mean on the Z axis (normalized)
+41      | fBodyAccMag.mean.. | Mean of the magnitude of the frequency domain signal (FFT) on body acceleration mean (normalized)
+42      | fBodyAccMag.meanFreq.. | Mean of the weighted mean magnitude of the frequency domain signal (FFT) on body acceleration mean (normalized)
+43      | fBodyBodyAccJerkMag.mean.. | Mean of the magnitude of the Jerk frequency domain signal (FFT) on body acceleration mean (normalized)
+44      | fBodyBodyAccJerkMag.meanFreq.. | Mean of the weighted mean magnitude of the Jerk frequency domain signal (FFT) on body acceleration mean (normalized)
+45      | fBodyBodyGyroMag.mean.. | Mean of the magnitude of the frequency domain signal (FFT) on angular velocity mean (normalized)
+46      | fBodyBodyGyroMag.meanFreq.. | Mean of the weighted mean magnitude of the frequency domain signal (FFT) on angular velocity mean (normalized)
+47      | fBodyBodyGyroJerkMag.mean.. | Mean of the magnitude of the Jerk frequency domain signal (FFT) on angular velocity mean (normalized)
+48      | fBodyBodyGyroJerkMag.meanFreq.. | Mean of the weighted mean magnitude of the Jerk frequency domain signal (FFT) on angular velocity mean (normalized)
+49      | angle.tBodyAccMean.gravity. | Mean of the angle between the vectors of the time signal on body gravital acceleration mean (normalized)
+50      | angle.tBodyAccJerkMean..gravityMean. | Mean of the angle between the vectors of the Jerk signal on body gravital acceleration mean (normalized)
+51      | angle.tBodyGyroMean.gravityMean. | Mean of the angle between the vectors of the time signal on angular velocity gravital acceleration mean (normalized)
+52      | angle.tBodyGyroJerkMean.gravityMean. | Mean of the angle between the vectors of the Jerk signal on angular velocity gravital acceleration mean (normalized)
+53      | angle.X.gravityMean. | Mean of the angle between the vectors on the X axis on gravital acceleration mean (normalized)
+54      | angle.Y.gravityMean. | Mean of the angle between the vectors on the Y axis on gravital acceleration mean (normalized)
+55      | angle.Z.gravityMean. | Mean of the angle between the vectors on the Z axis on gravital acceleration mean (normalized)
+56      | tBodyAcc.std...X | Mean of the time signal on body acceleration standard deviation on the X axis (normalized)
+57      | tBodyAcc.std...Y | Mean of the time signal on body acceleration standard deviation on the Y axis (normalized)
+58      | tBodyAcc.std...Z | Mean of the time signal on body acceleration standard deviation on the Z axis (normalized)
+59      | tGravityAcc.std...X | Mean of the time signal on gravity accerelation standard deviation on the X axis (normalized)
+60      | tGravityAcc.std...Y | Mean of the time signal on gravity accerelation standard deviation on the Y axis (normalized)
+61      | tGravityAcc.std...Z | Mean of the time signal on gravity accerelation standard deviation on the Z axis (normalized)
+62      | tBodyAccJerk.std...X | Mean of the Jerk signal on body acceleration standard deviation on the X axis (normalized)
+63      | tBodyAccJerk.std...Y | Mean of the Jerk signal on body acceleration standard deviation on the Y axis (normalized)
+64      | tBodyAccJerk.std...Z | Mean of the Jerk signal on body acceleration standard deviation on the Z axis (normalized)
+65      | tBodyGyro.std...X | Mean of the time signal of the angular velocity standard deviation on the X axis (normalized)
+66      | tBodyGyro.std...Y | Mean of the time signal of the angular velocity standard deviation on the Y axis (normalized)
+67      | tBodyGyro.std...Z | Mean of the time signal of the angular velocity standard deviation on the Z axis (normalized)
+68      | tBodyGyroJerk.std...X | Mean of the Jerk signal of the angular velocity standard deviation on the X axis (normalized)
+69      | tBodyGyroJerk.std...Y | Mean of the Jerk signal of the angular velocity standard deviation on the Y axis (normalized)
+70      | tBodyGyroJerk.std...Z | Mean of the Jerk signal of the angular velocity standard deviation on the Z axis (normalized)
+71      | tBodyAccMag.std.. | Mean of the magnitude of the time signal on body acceleration standard deviation (normalized)
+72      | tGravityAccMag.std.. | Mean of the the magnitude of the time signal on gravity acceleration standard deviation (normalized)
+73      | tBodyAccJerkMag.std.. | Mean of the agnitude of the Jerk signal on body acceleration standard deviation (normalized)
+74      | tBodyGyroMag.std.. | Mean of the magnitude of the time signal of the angular velocity standard deviation (normalized)
+75      | tBodyGyroJerkMag.std.. | Mean of the magnitude of the Jerk signal of the angular velocity standard deviation (normalized)
+76      | fBodyAcc.std...X | Mean of the frequency domain signal (FFT) on body acceleration standard deviation on the X axis (normalized)
+77      | fBodyAcc.std...Y | Mean of the frequency domain signal (FFT) on body acceleration standard deviation on the Y axis (normalized)
+78      | fBodyAcc.std...Z | Mean of the frequency domain signal (FFT) on body acceleration standard deviation on the Z axis (normalized)
+79      | fBodyAccJerk.std...X | Mean of the Jerk frequency domain signal (FFT) on body acceleration standard deviation on the X axis (normalized)
+80      | fBodyAccJerk.std...Y | Mean of the Jerk frequency domain signal (FFT) on body acceleration standard deviation on the Y axis (normalized)
+81      | fBodyAccJerk.std...Z | Mean of the Jerk frequency domain signal (FFT) on body acceleration standard deviation on the Z axis (normalized)
+82      | fBodyGyro.std...X | Mean of the frequency domain signal (FFT) on angular velocity standard deviation on the X axis (normalized)
+83      | fBodyGyro.std...Y | Mean of the frequency domain signal (FFT) on angular velocity standard deviation on the Y axis (normalized)
+84      | fBodyGyro.std...Z | Mean of the frequency domain signal (FFT) on angular velocity standard deviation on the Z axis (normalized)
+85      | fBodyAccMag.std.. | Mean of the magnitude of the frequency domain signal (FFT) on body acceleration standard deviation (normalized)
+86      | fBodyBodyAccJerkMag.std.. | Mean of the magnitude of the Jerk frequency domain signal (FFT) on body acceleration standard deviation (normalized)
+87      | fBodyBodyGyroMag.std.. | Mean of the magnitude of the frequency domain signal (FFT) on angular velocity standard deviation (normalized)
+88      | fBodyBodyGyroJerkMag.std.. | Mean of the magnitude of the Jerk frequency domain signal (FFT) on angular velocity standard deviation (normalized)
+
+N.B. FFT = Fast Fourier Transformation
