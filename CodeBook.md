@@ -67,3 +67,9 @@ std()         | Standard deviation of signal
 
 The following table presents all 88 variables included in the tidyData.txt file (dataset) and explains them in detail. 
 
+Number  | Name in dataset | Description
+------- | --------------- | -----------
+01      | subject         | Subject or person performing the activity
+02      | activity        | Indicates which of the 6 activities done in the experiment was performed
+03      | tBodyAcc.mean...X | Mean of time signal on body acceleration mean on the X axis (normalized)
+
