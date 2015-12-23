@@ -14,11 +14,11 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 For both the training dataset and the test dataset, the following records were provided:
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
 
 N.B.: All features are normalized and bounded within [-1,1].
 
@@ -48,7 +48,12 @@ The result of the analysis performed in this study, is provided in the file tidy
 
 In order to label the variables in the data file, the labels were composed of abbreviations of the measurement and transformation names. This is not very human readable, but since there are so many measurements done with slight differences, this was considered the most logical way of labeling. The following table explains the abbreviation components used in the variable names, which are presented in full in the next paragraph. 
 
-
+Abbreviation  | Description
+------------- | -----------
+t             | time domain signal
+f             | frequency domain signal
+Acc           | Accelerometer signal
+Gyro          | Gyroscope signal
 
 
 ##List of Variables
