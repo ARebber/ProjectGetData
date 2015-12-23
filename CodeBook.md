@@ -46,7 +46,7 @@ The result of the analysis performed in this study, is provided in the file tidy
 
 ##Definition of Abbreviations
 
-In order to label the variables in the data file, the labels were composed of abbreviations of the measurement and transformation names. This is not very human readable, but since there are so many measurements done with slight differences, this was considered the most logical way of labeling. The following table explains the abbreviation components used in the variable names, which are presented in full in the next paragraph. 
+In order to label the measurement variables in the data file, the labels were composed of abbreviations of the measurement and transformation names. This is not very human readable, but since there are so many measurements done with slight differences, this was considered the most logical way of labeling. The following table explains the abbreviation components used in the variable names, which are presented in full in the next paragraph. 
 
 Abbreviation  | Description
 ------------- | -----------
@@ -54,6 +54,13 @@ t             | time domain signal
 f             | frequency domain signal
 Acc           | Accelerometer signal
 Gyro          | Gyroscope signal
+XYZ           | Indication of the 3-axial component
+Body          | Body linear acceleration
+Gravity       | Gravity acceleration
+Jerk          | Jerk signal
+Mag           | Signal magnitude according to Eulidean norm
+mean()        | Mean value of signal
+std()         | Standard deviation of signal
 
 
 ##List of Variables
